@@ -1,0 +1,29 @@
+.btn-gradient-green {
+  background-image: var(--button-gradient-green);
+  color: var(--white);
+  border: none;
+
+  &:hover,
+  &:focus {
+    background-image: var(--button-gradient-green);
+    color: var(--white);
+  }
+}
+
+.btn-social {
+  background-color: var(--dark);
+  border: none;
+  color: var(--gray);
+
+  @include hover-focus {
+    background: var(--button-gradient-red);
+    color: var(--white);
+  }
+}
+
+.btn-dark {
+  @include hover-focus {
+    background: var(--button-gradient-red) !important;
+    color: var(--white) !important;
+  }
+}

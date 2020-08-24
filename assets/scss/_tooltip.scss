@@ -1,0 +1,12 @@
+// Base class
+.tooltip {
+  font-weight: 600;
+
+  .arrow {
+    display: none;
+  }
+
+  .tooltip-inner {
+    box-shadow: 0 7px 15px rgba(93, 6, 3, .4);
+  }
+}

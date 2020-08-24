@@ -1,0 +1,19 @@
+.dropdown-item {
+  &.active {
+    position: relative;
+
+    &::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      background: linear-gradient(89.17deg, #EE2B31 6.44%, #9E1215 87.71%);
+      width: .25rem;
+    }
+  }
+}
+
+.dropdown-menu.dropdown-mobile {
+  @include box-shadow($dropdown-box-shadow-mobile);
+}

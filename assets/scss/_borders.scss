@@ -1,0 +1,50 @@
+.border-white-10 {
+  border-color: rgba($white, .1) !important;
+}
+
+.border-white-20 {
+  border-color: rgba($white, .2) !important;
+}
+
+.border-white-04 {
+  border-color: rgba($white, .04) !important;
+}
+
+.border-red-300 {
+  border-color: $red-300 !important;
+}
+
+.rounded-xl {
+  border-radius: $border-radius-xl !important;
+}
+
+.rounded-tl-xl {
+  border-top-left-radius: $border-radius-xl !important;
+}
+
+.rounded-tr-xl {
+  border-top-right-radius: $border-radius-xl !important;
+}
+
+.rounded-br-xl {
+  border-bottom-right-radius: $border-radius-xl !important;
+}
+
+.rounded-bl-xl {
+  border-bottom-left-radius: $border-radius-xl !important;
+}
+
+.rounded-t-xl {
+  border-top-left-radius: $border-radius-xl !important;
+  border-top-right-radius: $border-radius-xl !important;
+}
+
+.rounded-b-xl {
+  border-bottom-right-radius: $border-radius-xl !important;
+  border-bottom-left-radius: $border-radius-xl !important;
+}
+
+.rounded-t-0 {
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+}

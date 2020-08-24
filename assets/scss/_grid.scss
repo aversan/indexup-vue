@@ -1,0 +1,31 @@
+.container-fluid {
+  max-width: 1920px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+
+  @media (max-width: 1200px) {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+}
+
+//.col-main {
+//  flex: 0 0 calc(100% - 485px);
+//  max-width: calc(100% - 485px);
+//
+//  @media (max-width: 1200px) {
+//    flex: 0 0 100%;
+//    max-width: 100%;
+//  }
+//}
+//
+//.col-side {
+//  flex: 0 0 485px;
+//  max-width: 485px;
+//  margin-left: auto;
+//
+//  @media (max-width: 1200px) {
+//    flex: 0 0 100%;
+//    max-width: 100%;
+//  }
+//}

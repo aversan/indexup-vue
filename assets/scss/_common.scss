@@ -1,0 +1,52 @@
+html.is-mobile {
+  font-size: 8px !important;
+}
+
+body {
+  min-width: 320px;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.cover {
+  overflow: hidden;
+
+  &-background {
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  &-object {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.full-width-container {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+.underline {
+  border-bottom: 1px solid;
+}
+
+th.text-truncate,
+td.text-truncate {
+  max-width: 1px;
+}
+
+label {
+  margin-bottom: 0;
+}
+
+.clickable {
+  cursor: pointer;
+}
